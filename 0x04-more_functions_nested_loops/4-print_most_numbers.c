@@ -1,19 +1,18 @@
 #include "main.h"
 
 /**
- * print_numbers - Prints numbers from 0 to 9
- *
- * This function prints numbers from 0 to 9 followed by a newline character.
+ * print_most_number -prints 01356789
+ *Return:void
  */
 
 void print_numbers(void)
 {
 char c;
 
-        for (c = '0'; c <= '9'; c++)
-        {
-        if(!(c == '2' || c == '4'))
+	for (c = '0'; c <= '9'; c++)
+	{
+	if (!(c == '2' || c == '4'))
 	_putchar(c);
-        }
-        _putchar('\n');
+	}
+	_putchar('\n');
 }
