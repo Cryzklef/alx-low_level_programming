@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * main - check the code
  *
@@ -11,3 +13,4 @@ int main(void)
     print_triangle(0);
     return (0);
 }
+
